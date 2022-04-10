@@ -21,9 +21,9 @@
 ![image](scp.png)
 
 * Setting an SSH key
-> We want to avoid typing ssh password everytime we log in or run scp. The solution is setting up ssh key. First, on my local computer, I typed the command <mark>ssh-keygen</mark>. Then it will ask me to enter the file to save the key. I typed the file the command suggested. And I did not enter the paraphrase to set up an empty ssh key. ![image](nopassword.png)
+> We want to avoid typing ssh password everytime we log in or run scp. The solution is setting up ssh key. First, on my local computer, I typed the command <mark>ssh-keygen</mark>. Then it will ask me to enter the file to save the key. I typed the file the command suggested. And I did not enter the paraphrase to set up an empty ssh key. I logged into the remote computer, typed in the command <mark>mkdir .ssh</mark>. Then I logged out and typed in the command on the local computer <mark>scp /Users/qianyunwang/.ssh/id_rsa.pub cs15lsp22aln@ieng6.ucsd.edu:~/.ssh/authorized_keys</mark>. In the end everything should work!![image](setupkey.png)
 
 * Optimizing Remote Running
-> Ssh key saves time when I log in, make local edit in files and copying them into the remote computer. 
+> Ssh key saves time when I log in, make local edit in files and copying them into the remote computer. ![image](nopassword1.png) ![image]("ls".png)
 
 
