@@ -1,7 +1,7 @@
 # Lab report 2
 * logical error with image reference
-> ![image1](logicalerror.png)  
-The [file](another-file.md) outputs two image links `[image1.png, image2.png]`. This is an logical error as I'm looking for an output of two regular links. The failure-inducing inputs are the image references. The bug is that the code in markdownParse.java does not cope with image references. The symptom is the logical error that outputs two image references instead of `[]`. 
+> ![image1](imagereferencebugfix.png)  
+The [file](another-file.md) outputs two image links `[image1.png, image2.png]`. This is an logical error as I'm looking for an output of two regular links. The failure-inducing inputs are the image references. The bug is that the code in MarkdownParse.java does not cope with image references. The symptom is the logical error that outputs two image references instead of `[]`. 
 
 * runtime error when using `[]` but not `()`
 > ![image2](indexoutofboundexception.png)  
