@@ -11,6 +11,8 @@ I used `scp` command using the alias to copy the file index.html onto my account
 
 * Setting up Github Access from ieng6
 > ![image](pastepubkey.png)  
-By entering `pbcopy < ~/.ssh/id_rsa.pub`, I copied the public key in the clipboard. Followin the tutorial, I added a new ssh key on my Github.
+By entering `pbcopy < ~/.ssh/id_rsa.pub`, I copied the public key in the clipboard. Following the tutorial, I added a new ssh key on my Github.  
+![image](privatekeylocation.png)  
+The private and public keys are stored in .ssh directory. The private key is stored in the file id_rsa, while the public is stored in the file id_rsa.pub.  
 
 * Copy whole directories with `scp -r`

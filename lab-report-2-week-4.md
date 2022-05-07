@@ -9,5 +9,5 @@ The [file](another-file2.md) outputs an index out of bound exception `Exception 
 
 * logical error with no link
 > ![image3](fixnolinkerror.png)  
-The [file](another-file3.md) outputs `[]`. The failure-inducing input is the blank file with no link. The bug is that there is no lines of code in MarkdownParse.java to check a blank file. The symptom is the logical error caused by the failure-inducing inputs.
+The [file](another-file3.md) outputs `[]`. The failure-inducing input is the blank file with no link. The bug is that there is no lines of code in MarkdownParse.java to check a blank file. The symptom is the logical error caused by the failure-inducing inputs.  
 
