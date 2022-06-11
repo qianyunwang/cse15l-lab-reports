@@ -5,7 +5,7 @@
 * link to the test-file with different-results
 > [341.md](341.md) [201.md](201.md)
 * 201.md
-> The output from my code is an out of heap error and the output from the other repository is `[baz]`. But the correct output should be `[]` since the file does not contain a link.  ![image](201output.png)  
+> The output from my code is an out of heap error and the output from the other repository is `[baz]`. But the correct output should be `[]` since the file does not contain a link.       ![image](201output.png)  
 * 341.md
 > The output from my code is an index out of bound error and the output from the other repository is `[]`. The other repository gives the correct result since the file does not contain a link, so there should not be anything in the bracket.  
 ![image](341output.png)
